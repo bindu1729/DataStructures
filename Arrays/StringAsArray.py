@@ -21,3 +21,16 @@ print("two d array indexes")
 for index_1 in range(0,len(twod_arr)):
     for index_2 in range(0,len(twod_arr[index_1])):
         print(twod_arr[index_1][index_2])
+
+print("Array manipulation")
+arr = [1,2,3,4,5]
+
+#other lang
+temp = []
+s = 2
+for i in range(s,len(arr)):
+    temp.append(arr[i])
+print(temp)
+
+#in python
+print(arr[s:])
