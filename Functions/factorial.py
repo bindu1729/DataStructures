@@ -42,7 +42,26 @@ for n in range(0,num+1):
     fact_array.append(factofnumbers(n))
 print(fact_array)
 
+#O(n)
+
+def factorialhw(n):
+    num_array = []
+    for i in range(0,n+1):
+        num_array.append(i)
+    print(num_array)
+    fact = 1
+    fact_result_array = []
+    for j in num_array:
+        if j == 0:
+            fact_result_array.append(1)
+        else:
+            fact = fact*j
+            fact_result_array.append(fact)
+    return fact_result_array
 
 
+print(factorialhw(6))
+print(factorialhw(7))
+print(factorialhw(8))
 
 
