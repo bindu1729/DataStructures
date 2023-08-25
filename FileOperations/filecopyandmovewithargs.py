@@ -1,4 +1,5 @@
 #Valueerror
+#read reads entire file at a time so if its greater than memory, then program crashes
 import os
 import argparse
 def check_for_empty_or_none(*args):
